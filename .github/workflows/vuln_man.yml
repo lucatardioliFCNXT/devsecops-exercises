@@ -49,7 +49,7 @@ jobs:
 
 
 ## Exercise Docker SBOM generation
-    sbom-docker:
+  sbom-docker:
       name: Generate docker SBOM
       runs-on: ubuntu-latest
       container: quay.io/pluribus_one/sbom_vex_scanner@sha256:4c93316f95a2fe12bd2683ec34ff36d8e3a29501c797fb4825e7e510bab29ce3
