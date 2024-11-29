@@ -4,7 +4,7 @@
 
 TRIVY_DB=${TRIVY_DB:-ghcr.io/aquasecurity/trivy-db,public.ecr.aws/aquasecurity/trivy-db}
 TRIVY_JAVA_DB=${TRIVY_JAVA_DB:-ghcr.io/aquasecurity/trivy-java-db,public.ecr.aws/aquasecurity/trivy-java-db}
-CLUSTER_IP=$1
+CLUSTER_IP=3.76.219.129
 
 if [ -z "$CLUSTER_IP" ]; then
     echo 'Missing mandatory cluster ip argument' >&2
